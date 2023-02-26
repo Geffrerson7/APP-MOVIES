@@ -27,7 +27,7 @@ export const findOne = async (
     }
 }
 
-export const findAll = async (_req: Request, res: Response): Promise<Response> => {
+export const findAll = async (req: Request, res: Response): Promise<Response> => {
 
     try {
         const movies = await prisma.movie.findMany({include: {copymovies:true}});
