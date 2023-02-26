@@ -46,7 +46,7 @@ model Copymovie{
   format   String
   price    Float
   status   Status @default(conserved)
-  Loans    Loan[]
+  loans    Loan[]
   movie    Movie  @relation(fields: [movie_id], references: [id])
   movie_id Int
 }
