@@ -49,6 +49,8 @@ Run project
 ```bash
   npm run dev
 ```
+## API Documentation
+[Postman documentation link](https://documenter.getpostman.com/view/24256278/2s93JxrgVh) 
 
 ## Author
 
