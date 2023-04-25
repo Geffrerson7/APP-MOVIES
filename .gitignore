@@ -1,7 +1,3 @@
-node_modules
-# Keep environment variables out of version control
-.env
-
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
@@ -49,6 +45,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+package-lock.json
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -97,7 +94,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-
+dist
 
 # Gatsby files
 .cache/
@@ -141,13 +138,11 @@ out
 .webpack/
 
 # Optional stylelint cache
-package-lock.json
+
 # SvelteKit build / generate output
 .svelte-kit
-#db/sqlite
-/prisma/db/*.db
-/prisma/*.db
-/prisma/*.db-journal
+
 #prisma/migrations
 prisma/migrations
+
 # End of https://www.toptal.com/developers/gitignore/api/node
