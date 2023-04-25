@@ -1,4 +1,4 @@
-# APP-MOVIES
+# MOVIES API
 
 ## Description
 It is a REST API for a movie rental business that creates, lists, and updates users, clients, movie loans, and movie copies.
